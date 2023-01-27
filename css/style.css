@@ -1,0 +1,177 @@
+/* general styles */
+body {
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #161618;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    float: left;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+/* specific styles for each section */
+#home {
+    text-align: center;
+}
+#schedule{
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+
+}
+
+#banner {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+#banner img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#banner h1{
+    color: red;
+    background-color: #161618;
+    z-index: -1;
+    position:relative;
+}
+h1 {
+    font-weight: bold;
+    color: white;
+}
+#content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+#new-releases{
+    text-align: center;
+}
+#events{
+    text-align: center;
+}
+.screen {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    margin: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card:hover img {
+    filter: blur(5px);
+}
+#promotions img{
+    width: 60vw;
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#promotions
+{
+    text-align: center;
+}
+
+
+
+
+/*
+KOT W BUTACH
+*/
+#main_kot_w_butach{
+    width: auto;
+    height: 100vh;
+}
+.container{
+    padding: 50px 10%;
+}
+.content{
+    display: block;
+}
+.back_to_home{
+    width: 150px;
+    height: 50px;
+    border-color: white;
+    border-width: 20px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.button_back a{
+    width: 100%;
+    height: 100%;
+    border-color: white;
+    border-width: 20px;
+    border-radius: 4px;
+}
+.img_move img{
+    width: 400px;
+    height: 560px;
+    float: left;
+}
+.desctiption_move{
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
+}
+
+
+
+
